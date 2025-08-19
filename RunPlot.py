@@ -58,8 +58,3 @@ else:
     else:
         print(f"Unrecognized plot type '{plottype}'.")
         exit()
-
-#Ising (8, 1, 0, 2, 0.04, "P", k=0).plotSpectrum()
-#XYZ (8, 1, 1, 1.5, 0, 0.04, "P", k=0).plotSpectrum()
-
-#print(sparse.csr_matrix(Ising (3, 1, 0, 0.5, 0.04, "P", k=None).mat()[::-1,::-1]))
